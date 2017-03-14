@@ -28,21 +28,24 @@ var aqiData = [
 
   /*
   createElement方法创建新元素（如p,li）
-  createTextNode方法创建文本节点
   appendChild创建子节点
+  sort()排序方法，return a - b从小到大排列，反之从大到小排列
   */
-
-  for(var i=0;i<aqiData.length;i++){ //遍历aqiData数组
-    var arr = aqiData[i][1];//把aqiData第n列的第二行元素赋值给arr
-    if(arr>60){//判断arr元素是否大于60
-      var myli = document.createElement("li");
-      var txtli = document.createTextNode(aqiData[i]);
-      myli.appendChild(txtli);
-      var myul = document.getElementById('aqi-list');
-      myul.appendChild(myli);
+  function sortNumber(a,b){
+      return b[1]-a[1]//a和b同时也是数组，将a,b数组中的第二个元素即数值进行大到小排序
+  };
+  aqiData.sort(sortNumber);
+  var arr=["一","二","三","四","五","六"];
+  for(var i=0;i<aqiData.length;i++){ //遍历aqiData数组  
+    if(aqiData[i][1]>60){//判断arr元素是否大于60   
+        var myli = document.createElement("li");
+        myli.innerHTML="第"+arr[i]+"名"+aqiData[i];
+        var myul = document.getElementById('aqi-list');
+        myul.appendChild(myli);
+     
     }
 
-    
+   
   }
 
 

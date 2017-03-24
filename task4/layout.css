@@ -59,6 +59,26 @@ ul#numlist li{
 	line-height: 40px;
 	background: #403000;
 	display: inline-block;
+	margin:0 4px;
 	color:#fff;
 	text-align: center;
+}
+/*小于768px设备下的样式*/
+@media(max-width: 768px){
+	.box{
+		width: 90vw;
+	}
+	.function{
+		width: 80vw;
+	}
+	.function input#input_text{
+		width: 20vw;
+	}
+	.function button{
+		width: 12vw;
+		font-size: 3.0vw;
+	}
+	.function button#left_out{
+		margin-left: .8vw;
+	}
 }

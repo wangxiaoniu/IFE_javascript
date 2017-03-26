@@ -1,0 +1,96 @@
+/*
+author:wang rao
+2-17-03-09
+task9 ifebaidu
+*/
+@charset"utf-8";
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+.box{
+	width: 500px;
+	height: 500px;
+	margin: 30px auto;
+}
+.function{
+	width: 500px;
+	height: 40px;
+	margin: 0 auto;
+
+}
+.function input#input_text{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	padding-left: 4px;
+	vertical-align: middle;
+}
+.function button{
+	border:0;
+	font-size: 12px;
+	height: 30px;
+	width: 50px;
+	line-height: 30px;
+	color:#fff;
+	background: #0080FF;
+	cursor:pointer;
+	text-align: center;
+	vertical-align: middle;
+}
+.function button:hover{
+	background: #006DD9;
+}
+.function button#left_out{
+	margin-left: 20px;
+}
+ul#numlist{
+	width: 500px;
+	height: auto;
+	margin:0 auto;
+	list-style-type: none;
+	
+}
+ul#numlist li{
+	width: 30px;
+	background: #403000;
+	display: inline-block;
+	margin:0 4px;
+	text-align: center;
+	cursor:pointer;
+}
+ul#sortList{
+	width: 500px;
+	height: auto;
+	margin:0 auto;
+	margin-top: 60px;
+}
+
+ul#sortList li{
+	width: 30px;
+	background: #403000;
+	display: inline-block;
+	margin:0 4px;
+	text-align: center;
+}
+/*小于768px设备下的样式*/
+@media(max-width: 768px){
+	.box{
+		width: 90vw;
+	}
+	.function{
+		width: 80vw;
+	}
+	.function input#input_text{
+		width: 20vw;
+	}
+	.function button{
+		width: 12vw;
+		font-size: 3.0vw;
+	}
+	.function button#left_out{
+		margin-left: .8vw;
+	}
+}

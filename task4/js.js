@@ -1,5 +1,9 @@
 
 function myfunction(){
+	if(!document.getElementById) return false;
+	if(!document.getElementsByTagName) return false;
+	if(!document.createElement) return false;
+	if(!document.createTextNode) return false;
 	//检索input
 	var myinput=document.getElementById("input_text");
 	//获取数字列表
@@ -43,26 +47,45 @@ function myfunction(){
 			alert("请输入数字!")		
 		}
 	}
-
-	//左侧出
+	//删除元素节点
+	function removeElement(_element){
+     	_element.parentNode.removeChild(_element);
+		
+	}
 	function left_out(){
-		var message=confirm("确定要删除"+list.childNodes[0].innerHTML);
-		if(message==true){
-			list.childNodes[0].remove();
+		//判断队列是否位空队列
+		if(listChild.length>0){
+			var message=confirm("确定要删除最左列？");
+			if(message==true){
+				for(var i=0;i<listChild.length;i++){
+					var liFirst=listChild.item(0);	
+				}
+				removeElement(liFirst);
+			}else{
+				alert("已取消删除！");
+			}
 		}else{
-			alert("已取消删除！");
+			alert("该队列为空！");
 		}
 	}
 
 	//右出
 	function right_out(){
-		var message=confirm("确定要删除"+list.childNodes[listChild.length-1].innerHTML);
-		if(message==true){
-			list.childNodes[listChild.length-1].remove();
+		if(listChild.length>0){
+			var message=confirm("确定要删除最右列？");
+			if(message==true){
+				for(var j=0;j<listChild.length;j++){
+					var liFirst=listChild.item(listChild.length-1);	
+				}
+				removeElement(liFirst);
+			}else{
+				alert("已取消删除！");
+			}
 		}else{
-			alert("已取消删除！");
+			alert("该队列为空！");
 		}
 	}
+	
 
 	//按钮点击监听事件
 	right_outbtn.addEventListener('click',right_out);

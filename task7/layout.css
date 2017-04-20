@@ -1,8 +1,4 @@
-*{
-	padding:0;
-	margin:0;
 
-}
 .flex{
 	display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */
 	display: -moz-box; /* Firefox 17- */
@@ -11,7 +7,8 @@
 	display: -ms-flexbox; /* IE 10 */
 	display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */
 	justify-content: space-between;
-	align-items: center;	
+	align-items: center;
+	background: #fff;	
 }
 .box{
 	border:1px solid #666;
@@ -36,10 +33,12 @@
 	height: 221px;
 	border:1px solid #666;
 	margin: 0 5px;
+
 }
 .box7,.box8,.box9,.box10,.box11,.box12,.box13,.box14{
 	width: 40px;
 	height: 180px;
 	border:1px solid #666;
 	margin: 0 5px;
+	background: #fff;
 }

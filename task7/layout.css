@@ -1,0 +1,45 @@
+*{
+	padding:0;
+	margin:0;
+
+}
+.flex{
+	display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */
+	display: -moz-box; /* Firefox 17- */
+	display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
+	display: -moz-flex; /* Firefox 18+ */
+	display: -ms-flexbox; /* IE 10 */
+	display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */
+	justify-content: space-between;
+	align-items: center;	
+}
+.box{
+	border:1px solid #666;
+	height: 350px;
+	width: 518px;
+	margin:50px auto;
+	padding:0 20px;
+
+}
+.btn{
+	width: 300px;
+	margin:0 auto;
+}
+.box1,.box2{
+	width: 247px;
+	height:278px;
+	border:1px solid #666;
+
+}
+.box3,.box4,.box5,.box6{
+	width: 121px;
+	height: 221px;
+	border:1px solid #666;
+	margin: 0 5px;
+}
+.box7,.box8,.box9,.box10,.box11,.box12,.box13,.box14{
+	width: 40px;
+	height: 180px;
+	border:1px solid #666;
+	margin: 0 5px;
+}

@@ -7,8 +7,10 @@
 	display: -ms-flexbox; /* IE 10 */
 	display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */
 	justify-content: space-between;
-	align-items: center;
-	background: #fff;	
+	align-items: center;	
+}
+div{
+	background: #fff;
 }
 .box{
 	border:1px solid #666;
@@ -40,5 +42,5 @@
 	height: 180px;
 	border:1px solid #666;
 	margin: 0 5px;
-	background: #fff;
+	
 }

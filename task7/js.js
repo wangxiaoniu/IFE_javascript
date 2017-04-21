@@ -7,21 +7,37 @@
 	var btn3=btn.querySelectorAll('button')[2];
 	var arr=[];
 	var last;
-	var toggle = false;
+	var flag = false;
 
 	  //给按钮绑定事件
         btn1.onclick = function(){
 
-            if(!toggle){
-                toggle = true;
-               	
+            if(!flag){
+                flag = true;
+                myReset();
                 preOrder(box);
                 myShow();
 
             }
         }
-   
-    
+         btn2.onclick = function(){
+            if(!flag){
+                flag = true;
+                myReset();
+                inOrder(box);
+                myShow();
+
+            }
+        }
+	   btn3.onclick = function(){
+	            if(!flag){
+	                flag = true;
+	                myReset();
+	                postOrder(box);
+	                myShow();
+
+	            }
+	        }
 
 	//先序遍历
 function preOrder(node){
@@ -31,33 +47,51 @@ function preOrder(node){
         preOrder(node.lastElementChild);
     }
 }
+//中序遍历
+function inOrder(node){
+    if(node){
+        inOrder(node.firstElementChild);//先访问左子树
+        arr.push(node);
+        inOrder(node.lastElementChild);//最后访问右子树
+    }
+}
 
-    //显示遍历的过程
+//后序遍历
+function postOrder(node){
+    if(node){
+        postOrder(node.firstElementChild);//先访问左子树
+     	postOrder(node.lastElementChild);//最后访问右子树
+        arr.push(node);//根
+       
+    }
+}
+
+ //显示遍历的过程
 
 function myShow(){
 	
-	for(var i=0;i<arr.length;i++){
-		setTimeout(function(i){
-			return function(){
-				if(i==arr.length-1){
-				
-					toggle=true;
-				}
-				if(last){
-					last.style.background="#fff";
-				}
-				arr[i].style.background='red';
-				last=arr[i];
-					
-	      }
+	for(var i=0; i<arr.length; i++){
+        setTimeout(function(i){
+            return function(){
+                if(i == arr.length-1){
+                    flag = false;
+                }
+                if(last){
+                    last.style.background = "white";
+                }
+
+                arr[i].style.background = "red";
+                last = arr[i];
+                 
+            }
         }(i),i*1000)
-
-	}
+    }
 }
 
-function reset(){
-	arr=[];
-	if(last){
-		last.style.background="#fff";
+  //初始化
+	function myReset(){
+	    if(last){
+	        last.style.background = "white";
+	    }
+
 	}
-}

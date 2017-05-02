@@ -30,7 +30,7 @@ ifebaidu javascript 斌斌学院 Js基础入门
     MDN JavaScript https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
 
 
-task2 == 任务二：零基础JavaScript编码（二）
+<b>task2 == 任务二：零基础JavaScript编码（二）</b>
 
 任务目的
 
@@ -58,7 +58,7 @@ task2 == 任务二：零基础JavaScript编码（二）
     MDN JavaScript
 
 
-task3 == 任务三：零基础JavaScript编码 http://ife.baidu.com/course/detail/id/91
+<b>task3 == 任务三：零基础JavaScript编码 http://ife.baidu.com/course/detail/id/91</b>
 
 任务目的
 
@@ -87,7 +87,7 @@ task3 == 任务三：零基础JavaScript编码 http://ife.baidu.com/course/detai
 
 
 
-task4 == 任务四：基础JavaScript练习（一）
+<b>task4 == 任务四：基础JavaScript练习（一）</b>
 
 任务目的
 
@@ -121,7 +121,7 @@ task4 == 任务四：基础JavaScript练习（一）
     MDN JavaScript
 
 
-task5 == 任务五：基础JavaScript练习（二）
+<b>task5 == 任务五：基础JavaScript练习（二）</b>
 
 任务目的
 
@@ -149,4 +149,63 @@ task5 == 任务五：基础JavaScript练习（二）
 
     JavaScript入门篇
     MDN JavaScript
+
+<b>task6 == 任务六：基础JavaScript练习（三）</b>
+
+任务目的
+
+    实践JavaScript数组、字符串相关操作
+
+任务描述
+
+    基于任务四进行升级
+    将新元素输入框从input改为textarea
+    允许一次批量输入多个内容，格式可以为数字、中文、英文等，可以通过用回车，逗号（全角半角均可），顿号，空格（全角半角、Tab等均可）等符号作为不同内容的间隔
+    增加一个查询文本输入框，和一个查询按钮，当点击查询时，将查询词在各个元素内容中做模糊匹配，将匹配到的内容进行特殊标识，如文字颜色等。举例，内容中有abcd，查询词为ab或bc，则该内容需要标识
+
+任务注意事项
+
+    实现简单功能的同时，请仔细学习JavaScript基本语法、事件、DOM相关的知识
+    请注意代码风格的整齐、优雅
+    代码中含有必要的注释
+    建议不使用任何第三方库、框架
+
+在线学习参考资料
+
+    JavaScript入门篇
+    MDN JavaScript
+    归并排序算法可视化
+    15种排序算法可视化展示
+    
+    
+ <b>task7 == 任务七：JavaScript和树（一）</b>
+ 
+ 任务目的
+
+    熟练JavaScript
+    学习树这种数据结构的基本知识
+
+任务描述
+
+    参考示例图，在页面中展现一颗二叉树的结构
+    提供一个按钮，显示开始遍历，点击后，以动画的形式呈现遍历的过程
+    二叉树的遍历算法和方式自定，前序中序后序皆可，但推荐可以提供多种算法的展示（增加多个按钮，每个按钮对应不同的算法）
+    当前被遍历到的节点做一个特殊显示（比如不同的颜色）
+    每隔一段时间（500ms，1s等时间自定）再遍历下一个节点
+
+任务注意事项
+
+    如果按照示例图中展示树，可以使用flexbox布局
+    实现简单功能的同时，请仔细学习JavaScript基本语法、事件、DOM相关的知识
+    请注意代码风格的整齐、优雅
+    代码中含有必要的注释
+    建议不使用任何第三方库、框架
+
+在线学习参考资料
+
+    JavaScript入门篇
+    MDN JavaScript
+    js数据结构和算法 二叉树 https://segmentfault.com/a/1190000000740261
+    Data Structures With JavaScript: Tree
+    Computer science in JavaScript: Binary search tree
 

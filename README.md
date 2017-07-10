@@ -29,7 +29,7 @@ ifebaidu javascript 斌斌学院 Js基础入门
     JavaScript入门篇 http://www.imooc.com/learn/36
     MDN JavaScript https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
 
-代码地址：https://github.com/wangxiaoniu/IFE_javascript/blob/master/task1/index.html
+地址：https://htmlpreview.github.io/?https://github.com/wangxiaoniu/IFE_javascript/blob/master/task1/index.html
 
 <b>task2 == 任务二：零基础JavaScript编码（二）</b>
 
@@ -58,7 +58,7 @@ ifebaidu javascript 斌斌学院 Js基础入门
     JavaScript入门篇
     MDN JavaScript
 
-代码地址：https://github.com/wangxiaoniu/IFE_javascript/blob/master/task2/index.html
+地址：https://htmlpreview.github.io/?https://github.com/wangxiaoniu/IFE_javascript/blob/master/task2/index.html
 
 <b>task3 == 任务三：零基础JavaScript编码 http://ife.baidu.com/course/detail/id/91</b>
 
@@ -87,7 +87,7 @@ ifebaidu javascript 斌斌学院 Js基础入门
     JavaScript入门篇
     MDN JavaScript
 
-代码地址：https://github.com/wangxiaoniu/IFE_javascript/blob/master/task3/index.html
+地址：https://htmlpreview.github.io/?https://github.com/wangxiaoniu/IFE_javascript/blob/master/task3/index.html
 
 <b>task4 == 任务四：基础JavaScript练习（一）</b>
 
@@ -122,7 +122,7 @@ ifebaidu javascript 斌斌学院 Js基础入门
     JavaScript入门篇
     MDN JavaScript
 
-代码地址：https://github.com/wangxiaoniu/IFE_javascript/blob/master/task4/index.html
+地址：https://htmlpreview.github.io/?https://github.com/wangxiaoniu/IFE_javascript/blob/master/task4/index.html
 
 <b>task5 == 任务五：基础JavaScript练习（二）</b>
 
@@ -153,7 +153,7 @@ ifebaidu javascript 斌斌学院 Js基础入门
     JavaScript入门篇
     MDN JavaScript
 
-代码地址：https://github.com/wangxiaoniu/IFE_javascript/blob/master/task5/index.html
+地址：https://htmlpreview.github.io/?https://github.com/wangxiaoniu/IFE_javascript/blob/master/task5/index.html
 
 <b>task6 == 任务六：基础JavaScript练习（三）</b>
 
@@ -182,7 +182,7 @@ ifebaidu javascript 斌斌学院 Js基础入门
     归并排序算法可视化
     15种排序算法可视化展示
  
- 代码地址：https://github.com/wangxiaoniu/IFE_javascript/blob/master/task6/index.html
+ 地址：https://htmlpreview.github.io/?https://github.com/wangxiaoniu/IFE_javascript/blob/master/task6/index.html
     
  <b>task7 == 任务七：JavaScript和树（一）</b>
  
@@ -215,4 +215,4 @@ ifebaidu javascript 斌斌学院 Js基础入门
     Data Structures With JavaScript: Tree
     Computer science in JavaScript: Binary search tree
 
-代码地址：https://github.com/wangxiaoniu/IFE_javascript/blob/master/task7/index.html
+地址：https://htmlpreview.github.io/?https://github.com/wangxiaoniu/IFE_javascript/blob/master/task7/index.html
